@@ -1,0 +1,23 @@
+a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+a > img {
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+    width:38px;
+    height:auto;
+}
+#twit, #face, #git, #insta{
+    /* margin-top:5px; */
+    width:40px;
+    height:auto;
+    padding: 0 5px;
+}
+
+#twit:hover, #face:hover, #git:hover, #insta:hover{
+    background-color:white;
+}
